@@ -32,6 +32,7 @@ export default function App() {
 
   function onReset() {
     setImageURI(null);
+    setPickedEmoji(null);
     setShowAppOptions(false);
   }
   function onModalClose() {
