@@ -2,7 +2,6 @@ import { Modal, View, Text, Pressable } from "react-native";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
 export default function EmojiPicker({ isVisible, children, onClose }) {
-  console.log("child = ", children);
   return (
     <Modal animationType="slide" transparent visible={isVisible} style={{}}>
       <View
@@ -15,7 +14,6 @@ export default function EmojiPicker({ isVisible, children, onClose }) {
           borderTopLeftRadius: 16,
           borderTopRightRadius: 16,
           backgroundColor: "#25292e",
-          // flexDirection: "row",
         }}
       >
         <View
